@@ -1,0 +1,5 @@
+﻿  problem6.c
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\assignment4\problem6\problem6\problem6.c(9): warning C4013: 'gets' undefined; assuming extern returning int
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\assignment4\problem6\problem6\problem6.c(22): warning C4098: 'rev': 'void' function returning a value
+  Problem6.vcxproj -> C:\Users\cdac\Source\Repos\divishabyreddy\ncrwork\Assignment4\Problem6\Debug\Problem6.exe
+  Problem6.vcxproj -> C:\Users\cdac\Source\Repos\divishabyreddy\ncrwork\Assignment4\Problem6\Debug\Problem6.pdb (Partial PDB)

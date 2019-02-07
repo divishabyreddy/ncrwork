@@ -1,0 +1,12 @@
+﻿  problem1.c
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\assignment4\problem1\problem1\problem1.c(4): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\assignment4\problem1\problem1\problem1.c(6): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'float (*)[3]'
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\assignment4\problem1\problem1\problem1.c(7): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'float *'
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\assignment4\problem1\problem1\problem1.c(8): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'float *'
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\assignment4\problem1\problem1\problem1.c(9): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'float *'
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\assignment4\problem1\problem1\problem1.c(10): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\assignment4\problem1\problem1\problem1.c(11): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\assignment4\problem1\problem1\problem1.c(12): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\assignment4\problem1\problem1\problem1.c(13): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+  problem1.vcxproj -> C:\Users\cdac\Source\Repos\divishabyreddy\ncrwork\Assignment4\problem1\Debug\problem1.exe
+  problem1.vcxproj -> C:\Users\cdac\Source\Repos\divishabyreddy\ncrwork\Assignment4\problem1\Debug\problem1.pdb (Partial PDB)

@@ -1,0 +1,5 @@
+﻿  cassign2prob1.c
+c:\users\cdac\source\repos\cassign2prob1\cassign2prob1\cassign2prob1.c(40): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\cdac\source\repos\cassign2prob1\cassign2prob1\cassign2prob1.c(53): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  cassign2prob1.vcxproj -> C:\Users\cdac\Source\Repos\cassign2prob1\Debug\cassign2prob1.exe
+  cassign2prob1.vcxproj -> C:\Users\cdac\Source\Repos\cassign2prob1\Debug\cassign2prob1.pdb (Partial PDB)
