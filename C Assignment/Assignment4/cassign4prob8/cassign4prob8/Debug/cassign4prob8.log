@@ -1,0 +1,7 @@
+﻿  cassign4prob8.c
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment4\cassign4prob8\cassign4prob8\cassign4prob8.c(13): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment4\cassign4prob8\cassign4prob8\cassign4prob8.c(13): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment4\cassign4prob8\cassign4prob8\cassign4prob8.c(13): note: the missing variadic argument 2 is required by format string '%s'
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment4\cassign4prob8\cassign4prob8\cassign4prob8.c(13): note: this argument is used as a buffer size
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment4\cassign4prob8\cassign4prob8\cassign4prob8.c(16): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: see declaration of 'strcpy'
