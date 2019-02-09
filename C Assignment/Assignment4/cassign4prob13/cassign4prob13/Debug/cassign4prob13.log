@@ -1,0 +1,6 @@
+﻿  cassign4prob13.c
+c:\users\friends\source\repos\divishabyreddy\ncrwork\c assignment\assignment4\cassign4prob13\cassign4prob13\cassign4prob13.c(8): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\friends\source\repos\divishabyreddy\ncrwork\c assignment\assignment4\cassign4prob13\cassign4prob13\cassign4prob13.c(8): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\friends\source\repos\divishabyreddy\ncrwork\c assignment\assignment4\cassign4prob13\cassign4prob13\cassign4prob13.c(8): note: the missing variadic argument 2 is required by format string '%s'
+  c:\users\friends\source\repos\divishabyreddy\ncrwork\c assignment\assignment4\cassign4prob13\cassign4prob13\cassign4prob13.c(8): note: this argument is used as a buffer size
+  cassign4prob13.vcxproj -> C:\Users\Friends\source\repos\divishabyreddy\ncrwork\C Assignment\Assignment4\cassign4prob13\Debug\cassign4prob13.exe
