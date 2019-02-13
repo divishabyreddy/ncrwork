@@ -1,5 +1,0 @@
-﻿  cassign1prob3.c
-c:\users\sai\source\repos\divishabyreddy\ncrwork\cassign3prob1\cassign1prob3\cassign1prob3\cassign1prob3.c(16): warning C4305: '=': truncation from 'int' to 'unsigned char'
-c:\users\sai\source\repos\divishabyreddy\ncrwork\cassign3prob1\cassign1prob3\cassign1prob3\cassign1prob3.c(18): warning C4305: '=': truncation from 'int' to 'unsigned char'
-c:\users\sai\source\repos\divishabyreddy\ncrwork\cassign3prob1\cassign1prob3\cassign1prob3\cassign1prob3.c(4): warning C4305: 'initializing': truncation from 'int' to 'unsigned char'
-  cassign1prob3.vcxproj -> C:\Users\sai\source\repos\divishabyreddy\ncrwork\cassign3prob1\cassign1prob3\Debug\cassign1prob3.exe
