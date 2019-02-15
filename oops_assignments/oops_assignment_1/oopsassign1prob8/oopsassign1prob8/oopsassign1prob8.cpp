@@ -7,11 +7,29 @@ using namespace std;
 class Employee
 {
 	int salary;
-	char ch[20];
+	int exp;
 public:
 	Employee()
 	{
+		cout << "In default constructor" << endl;
 		salary = 0;
-		strcpy(ch, NULL);
+		exp = 0;
+		
+	}
+	Employee(int a, int b)
+	{
+		cout << "In parameter constructor" << endl;
+		salary = a;
+		exp = b;
+	}
+	Employee(Employee e2)
+	{
+		cout << "In copy constructor" << endl;
+		salary = e2.salary;
+		exp = e2.exp;
+	}
+	~Employee()
+	{
+		cout << "In destructor" << endl;
 	}
 };
