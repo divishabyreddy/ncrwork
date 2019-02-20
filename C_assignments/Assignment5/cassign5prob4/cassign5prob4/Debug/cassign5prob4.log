@@ -1,0 +1,3 @@
+﻿  cassign5prob4.c
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob4\cassign5prob4\cassign5prob4.c(6): warning C4133: '=': incompatible types - from 'unsigned int *' to 'char *'
+  cassign5prob4.vcxproj -> C:\Users\Friends\source\repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob4\Debug\cassign5prob4.exe
