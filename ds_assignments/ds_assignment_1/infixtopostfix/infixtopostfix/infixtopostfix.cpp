@@ -85,7 +85,7 @@ int main()
 	for (int i = 0; i < strlen(c); i++)
 	{
 		if ((c[i] <= 'z'&&c[i] >= 'a') || c[i] <= 'Z'&&c[i] >= 'A')
-			obj.push(c[i]);
+			res[j++]=c[i];
 		else if (c[i] == '(')
 			obj.push(c[i]);
 		else if (c[i] == ')')
@@ -108,7 +108,6 @@ int main()
 				char ch =obj.peek();
 				res[j++] = ch;
 				 obj.pop();
-				 cout << ch;
 			}
 			
 			obj.push(c[i]);
@@ -122,7 +121,7 @@ int main()
 		obj.pop();
 		res[j++] = ch;
 	}
-	for (int i = 0; i < strlen(res); i++)
+	for (int i = 0; i < j; i++)
 	{
 		cout << res[i];
 	}
