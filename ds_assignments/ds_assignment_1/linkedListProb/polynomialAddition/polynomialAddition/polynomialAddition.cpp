@@ -44,7 +44,7 @@ void list::travel_forward()
 	cout << "output is" << endl;
 	while (cur != NULL)
 	{
-		cout << cur->data1 << endl;
+		cout << cur->data1 << cur->data2 << endl;
 		cur = cur->next;
 	}
 }
@@ -103,7 +103,7 @@ void polyAdd(list s1, list s2, list s3)
 			{
 				temp = new node;
 				temp->data1 = s1.start->data1 + s2.start->data1;
-				temp->data2 = s1.start->data2 + s2.start->data2;
+				temp->data2 = s1.start->data2 ;
 				temp->next = NULL;
 				if (s3.start == NULL)
 					s3.start = temp;
