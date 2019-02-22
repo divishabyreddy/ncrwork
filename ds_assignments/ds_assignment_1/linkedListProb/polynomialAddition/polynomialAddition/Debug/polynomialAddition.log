@@ -1,0 +1,5 @@
+﻿  polynomialAddition.cpp
+c:\users\cdac\source\repos\ncrwork\ds_assignments\ds_assignment_1\linkedlistprob\polynomialaddition\polynomialaddition\polynomialaddition.cpp(164): warning C4101: 'i': unreferenced local variable
+c:\users\cdac\source\repos\ncrwork\ds_assignments\ds_assignment_1\linkedlistprob\polynomialaddition\polynomialaddition\polynomialaddition.cpp(164): warning C4101: 'position': unreferenced local variable
+c:\users\cdac\source\repos\ncrwork\ds_assignments\ds_assignment_1\linkedlistprob\polynomialaddition\polynomialaddition\polynomialaddition.cpp(164): warning C4101: 'nodes': unreferenced local variable
+LINK : fatal error LNK1168: cannot open C:\Users\cdac\Source\Repos\ncrwork\ds_assignments\ds_assignment_1\linkedListProb\polynomialAddition\Debug\polynomialAddition.exe for writing

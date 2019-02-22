@@ -1,0 +1,5 @@
+﻿  infixtopostfix.cpp
+c:\users\cdac\source\repos\ncrwork\ds_assignments\ds_assignment_1\infixtopostfix\infixtopostfix\infixtopostfix.cpp(85): warning C4018: '<': signed/unsigned mismatch
+c:\users\cdac\source\repos\ncrwork\ds_assignments\ds_assignment_1\infixtopostfix\infixtopostfix\infixtopostfix.cpp(77): warning C4101: 'ch': unreferenced local variable
+  infixtopostfix.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\ds_assignments\ds_assignment_1\infixtopostfix\Debug\infixtopostfix.exe
+  infixtopostfix.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\ds_assignments\ds_assignment_1\infixtopostfix\Debug\infixtopostfix.pdb (Partial PDB)

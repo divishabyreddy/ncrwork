@@ -1,5 +1,0 @@
-﻿  linkedlist.cpp
-c:\users\cdac\source\repos\ncrwork\ds_assignments\ds_assignment_1\linkedlist\linkedlist\linkedlist.cpp(234): warning C4101: 'i': unreferenced local variable
-c:\users\cdac\source\repos\ncrwork\ds_assignments\ds_assignment_1\linkedlist\linkedlist\linkedlist.cpp(234): warning C4101: 'nodes': unreferenced local variable
-  linkedlist.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\ds_assignments\ds_assignment_1\linkedlist\Debug\linkedlist.exe
-  linkedlist.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\ds_assignments\ds_assignment_1\linkedlist\Debug\linkedlist.pdb (Partial PDB)
