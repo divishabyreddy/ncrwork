@@ -1,0 +1,5 @@
+﻿  createTwoChildProcesses.cpp
+c:\users\cdac\source\repos\ncrwork\windows-programming\basic_programs\createtwochildprocesses\createtwochildprocesses\createtwochildprocesses.cpp(29): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+c:\users\cdac\source\repos\ncrwork\windows-programming\basic_programs\createtwochildprocesses\createtwochildprocesses\createtwochildprocesses.cpp(40): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+  createTwoChildProcesses.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\windows-programming\Basic_programs\createTwoChildProcesses\Debug\createTwoChildProcesses.exe
+  createTwoChildProcesses.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\windows-programming\Basic_programs\createTwoChildProcesses\Debug\createTwoChildProcesses.pdb (Full PDB)

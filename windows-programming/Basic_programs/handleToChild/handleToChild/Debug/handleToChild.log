@@ -1,0 +1,5 @@
+﻿  handleToChild.cpp
+c:\users\cdac\source\repos\ncrwork\windows-programming\basic_programs\handletochild\handletochild\handletochild.cpp(10): warning C4101: 'hp2': unreferenced local variable
+c:\users\cdac\source\repos\ncrwork\windows-programming\basic_programs\handletochild\handletochild\handletochild.cpp(10): warning C4101: 'hp1': unreferenced local variable
+  handleToChild.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\windows-programming\Basic_programs\handleToChild\Debug\handleToChild.exe
+  handleToChild.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\windows-programming\Basic_programs\handleToChild\Debug\handleToChild.pdb (Full PDB)

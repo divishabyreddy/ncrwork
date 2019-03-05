@@ -1,0 +1,4 @@
+﻿  prob6.cpp
+c:\users\cdac\source\repos\ncrwork\windows-programming\basic_programs\prob6\prob6\prob6.cpp(29): warning C4477: 'printf_s' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+  prob6.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\windows-programming\Basic_programs\prob6\Debug\prob6.exe
+  prob6.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\windows-programming\Basic_programs\prob6\Debug\prob6.pdb (Full PDB)
