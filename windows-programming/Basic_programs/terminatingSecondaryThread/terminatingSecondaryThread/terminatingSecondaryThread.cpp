@@ -10,7 +10,7 @@ DWORD WINAPI thread_func2(LPVOID lpPar)
 }
 DWORD WINAPI thread_func1(LPVOID lpPar)
 {
-	printf("control entered into the first thread\n");
+	printf("the control is entered into the first thread\n");
 	DWORD dwTh2;
 	HANDLE hTh2;
 	DWORD exitcode;
