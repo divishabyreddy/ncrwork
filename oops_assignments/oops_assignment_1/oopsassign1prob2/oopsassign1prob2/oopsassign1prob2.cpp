@@ -13,26 +13,36 @@ display(): prints student details*/
 #include<iostream>
 #include<string.h>
 using namespace std;
-class Student
+class Student //creates a class named student
 {
 	char studentName[100];
 	char grade;
-	int sub1, sub2, sub3;
+	int subject1, subject2, subject3;
 public:
-	void set_Data(char name[], int m1, int m2, int m3)
+	void set_Data(char name[], int mark1, int mark2, int mark3)//sets this data into the student object
 	{
-		strcpy(studentName, name);
-		sub1 = m1;
-		sub2 = m2;
-		sub3 = m3;
-
+		if (mark1 > 100 || mark2 > 100 || mark3 > 100 || mark1 < 0 || mark2 < 0 || mark3 < 0)
+		{
+			cout << "marks are not in the valid range" << endl;
+			system("pause");
+			exit(1);
+		}
+		else
+		{
+			strcpy_s(studentName, name);
+			subject1 = mark1;
+			subject2 = mark2;
+			subject3 = mark3;
+		}
 	}
-	float average()
+	float calculateAverage()//calculates average marks of the student
 	{
-		return((sub1 + sub2 + sub3) / 3);
+		return((subject1 + subject2 + subject3) / 3);
 	}
-	void computeGrade(float avg)
+	void computeGrade()//computes the grade based on avg
 	{
+		float avg = 0;
+		avg = calculateAverage();//the avg value returned by function is stored in avg
 		if (avg > 60)
 			grade = 'A';
 		else if (avg > 50 && avg <= 60)
@@ -43,22 +53,24 @@ public:
 			grade = 'F';
 		
 	}
-	void display()
+	void display()//displays the student details
 	{
-		cout << "studentName" << " " << studentName << endl;
-		cout << "subject1 marks    " << sub1 << endl;
-		cout << "subject2 marks    " << sub2 << endl;
-		cout << "subject3 marks    " << sub3 << endl;
-		cout << "grade   " << grade << endl;
+		cout << "studentName is    "<< studentName << endl;
+		cout << "subject1 marks     " << subject1 << endl;
+		cout << "subject2 marks    " << subject2 << endl;
+		cout << "subject3 marks    " << subject3 << endl;
+		cout << "grade is  " << grade << endl;
+		system("pause");
 	}
 };
 int main()
 {
-	Student s1;
-	float avg = 0;
-	s1.set_Data("ram", 90, 90, 100);
-	avg=s1.average();
-	s1.computeGrade(avg);
-	s1.display();
+	Student studentObj;//creates an object of the class student
+	//float avg = 0;
+	cout << "the marks given should be in the range of 0 and 100" << endl;
+	studentObj.set_Data("ram", 90, 90, 100);//sets the data of the object with the given values
+	//avg=studentObj.calculateAverage();
+	studentObj.computeGrade();
+	studentObj.display(); // displays the student details
 	return 0;
 }

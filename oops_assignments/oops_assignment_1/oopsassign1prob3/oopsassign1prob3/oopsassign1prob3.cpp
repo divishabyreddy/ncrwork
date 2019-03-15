@@ -10,28 +10,28 @@ ii. One to multipy two complex number by taking two reference
 variables of class complex*/
 #include<iostream>
 using namespace std;
-class Complex 
+class Complex //creates a class named complex
 {
 	float real;
 	float img;
 public:
-	Complex()
+	Complex()//constructor with no parameters
 	{
 		real = 0;
 		img = 0;
 	}
-	Complex(float temp)
+	Complex(float temp)//constructor with only one parameters
 	{
 		real = temp;
 		img = temp;
 	}
-	Complex(float a, float b)
+	Complex(float a, float b)//constructor with two parameters
 	{
 		real = a;
 		img = b;
 	}
-	friend void add(Complex &c1, Complex &c2);
-	friend void multiply(Complex &c1, Complex &c2);
+	friend void add(Complex &c1, Complex &c2);//friend function to add two complex numbers
+	friend void multiply(Complex &c1, Complex &c2);//friend function to  multiply two complex numbers
 };
 void add(Complex &c1, Complex &c2)
 {
@@ -50,9 +50,10 @@ void multiply(Complex &c1, Complex &c2)
 }
 int main()
 {
-	Complex c3, c1(5), c2(5, 5);
-	add(c2, c1);
-	multiply(c1, c2);
+	Complex complex3, complex1(5), complex2(5, 5);//cretaes objects of class complex
+	add(complex2, complex1);
+	multiply(complex1, complex2);
+	system("pause");//stops the console from closing
 	return 0;
 }
 	

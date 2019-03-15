@@ -11,12 +11,14 @@ int main()
 	gets_s(s);
 	if (balancingParanthesis(s))
 	{
-		infixToPostfix(s);
+		printf_s("symbols are balanced\n");
+		//infixToPostfix(s);
 	}
-	else
+	/*else
 	{
 		printf_s("symbols are not balanced\n");
 		exit(1);
-	}
+	}*/
+	system("pause");
 	return 0;
 }

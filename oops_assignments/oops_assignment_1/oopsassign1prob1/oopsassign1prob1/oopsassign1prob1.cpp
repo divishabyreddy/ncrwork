@@ -10,37 +10,46 @@ variable.*/
 using namespace std;
 class Time {
 	int hours;
-	int mins;
-	int sec;
+	int minutes;
+	int seconds;
 public:
-	Time()
+	Time()//constructor without any parameters
 	{
-		hours = mins = sec = 0;
+		hours = minutes = seconds = 0;
 	}
-	Time(int h,int m,int s)
+	Time(int h,int m,int s)//constructor with parameters
 	{
-		hours = h;
-		mins = m;
-		sec = s;
+		if (h > 24 || m > 60 || s > 60 || h < 0 || m < 0 || s < 0)
+		{
+			cout << "invalid input, the range is out of bounds" << endl;
+			system("pause");
+			exit(1);
+		}
+		else
+		{
+			hours = h;
+			minutes = m;
+			seconds = s;
+		}
 	}
-	void display()
+	void display()//to display the time in given format
 	{
-		cout << hours << ":" << mins << ":" << sec<<endl;
+		cout << hours << ":" << minutes << ":" << seconds<<endl;
 	}
-	Time operator+(Time t1)
+	Time operator+(Time t1)//for adding the two time objects and storing it in third one 
 	{
 		Time temp;
-		temp.sec = sec + t1.sec;
+		temp.seconds = seconds + t1.seconds;
 		temp.hours = hours + t1.hours;
-		temp.mins = mins + t1.mins;
-		if (temp.sec >= 60)
+		temp.minutes = minutes + t1.minutes;
+		if (temp.seconds >= 60)
 		{
-			temp.sec = temp.sec - 60;
-			temp.mins++;
+			temp.seconds = temp.seconds - 60;
+			temp.minutes++;
 		}
-		if (temp.mins >= 60)
+		if (temp.minutes >= 60)
 		{
-			temp.mins = temp.mins - 60;
+			temp.minutes = temp.minutes - 60;
 			temp.hours++;
 		}
 		return(temp);
@@ -48,10 +57,12 @@ public:
 };
 int main()
 {
-	Time t1(11, 43, 34), t2(12, 32, 32), t3;
-	t1.display();
-	t3 = t1 + t2;
-	t3.display();
-	system("pause");
+	Time time1(11, 43, 34), time2(35, 32, 32), time3;//creating objects
+	cout << "time1 is ";
+	time1.display();
+	cout << "sum of time1 and time2 is  ";
+	time3 = time1 + time2;//adding two time objects
+	time3.display();
+	system("pause");//to stop the console from closing
 	return 0;
 }

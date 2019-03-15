@@ -1,6 +1,7 @@
 #include<iostream>
 #include<stdlib.h>
 #include<string.h>
+#define SIZE 10
 using namespace std;
 	class stack
 	{
@@ -60,10 +61,8 @@ using namespace std;
 	};
 	int balancingParanthesis(char *s)
 	{
-		int n;
+		int n=SIZE;
 		stack obj;
-		cout << "enter the size" << endl;
-		cin >> n;
 		obj.getsize(n);
 		int flag = 0;
 		char ch;
@@ -87,21 +86,21 @@ using namespace std;
 			if (!(obj.isEmpty()))
 			{
 				if (ch == ')' && (obj.peek() == '('))
-					cout << "the element popped is  " << obj.pop() << endl;
+					/*cout << "the element popped is  " << */obj.pop() /*<< endl*/;
 				else if (ch == ')')
 				{
 					flag = 1;
 					break;
 				}
 				if (ch == '}' && obj.peek() == '{')
-					cout << "the element popped is  " << obj.pop() << endl;
+					/*cout << "the element popped is  " << */obj.pop()/* << endl*/;
 				else if (ch == '}')
 				{
 					flag = 1;
 					break;
 				}
 				if (ch == ']' && obj.peek() == '[')
-					cout << "the element popped is  " << obj.pop() << endl;
+					/*cout << "the element popped is  " <<*/ obj.pop()/* << endl*/;
 				else if (ch == ']')
 				{
 					flag = 1;

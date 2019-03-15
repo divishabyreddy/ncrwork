@@ -102,7 +102,7 @@ void infixToPostfix(char *s)
 		}
 		else
 		{
-			while (obj.peek() != '!'&&precedence(c[i]) <= precedence(obj.peek()))
+			while (obj.peek() != '!'&&precedence(s[i]) <= precedence(obj.peek()))
 			{
 				char ch = obj.peek();
 				res[j++] = ch;

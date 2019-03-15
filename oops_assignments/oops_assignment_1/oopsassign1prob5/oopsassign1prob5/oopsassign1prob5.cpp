@@ -10,51 +10,52 @@ required.*/
 #include<math.h>
 using namespace std;
 class Distance2;
-class Distance1
+class Distance1//creating a class of distance 1
 {
-	
 	float meters;
-	float cms;
+	float centimeters;
 public:
-	Distance1() {};
-	Distance1(float a, float b)
+	Distance1() {};//
+	Distance1(float a, float b)//parameterised constructor 
 	{
 		meters = a;
-		cms = b;
+		centimeters = b;
 	}
-	friend void add(Distance1 d1, Distance2 d2);
+	friend void add(Distance1 d1, Distance2 d2);//friend function to add two distances
 };
-class Distance2
+class Distance2//defining distance2 class
 {
 	float feet;
 	float inch;
 public:
-	Distance2(float a, float b)
+	Distance2(float a, float b)//parameterised constructor
 	{
 		feet = a;
 		inch = b;
 	}
-	friend void add(Distance1 d1, Distance2 d2);
+	friend void add(Distance1 d1, Distance2 d2);//function to add the two distances
 };
- void add(Distance1 d1, Distance2 d2)
+ void add(Distance1 d1, Distance2 d2)//function to add the two distances
 {
-	 Distance1 temp;
-	 d2.inch = d2.inch + d2.feet * 12;
-	 temp.cms = d1.cms + d2.inch*2.54;
-	 if (temp.cms >= 100)
+	 Distance1 temp(0,0);
+	 int x;
+	 x = d2.inch + d2.feet * 12;
+	// cout << x;
+	 temp.centimeters = d1.centimeters + x*2.54;
+	 if (temp.centimeters >= 100)
 	 {
-		 temp.meters += (temp.cms) / 100;
-		 temp.cms = (int)(temp.cms) % 100;
+		 temp.meters += (temp.centimeters) / 100;
+		 temp.centimeters = (int)(temp.centimeters) % 100;
 	 }
-	 std::cout << "distance in meters and centi meters is"<<std::fixed  << (floor(temp.meters*1000))/1000 << "m " << temp.cms << "cms" << endl;
+	 std::cout << "distance in meters and centi meters is"<<std::fixed  << (floor(temp.meters*1000))/1000 << "m " << temp.centimeters << "cms" << endl;
 
-	
+
 }
  int main()
  {
-	 Distance1 d1(1, 50);
-	 Distance2 d2(1, 6);
-	 add(d1, d2);
+	 Distance1 distance1(1, 50);//object of class distance1
+	 Distance2 distance2(1, 6);//object of class distance2
+	 add(distance1, distance2);
 	 system("pause");
 	 return 0;
  }

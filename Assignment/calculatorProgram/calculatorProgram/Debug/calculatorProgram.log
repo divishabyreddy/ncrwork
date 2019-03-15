@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\cdac\source\repos\ncrwork\assignment\calculatorprogram\calculatorprogram\main.cpp(8): warning C4101: 'val': unreferenced local variable
+c:\users\cdac\source\repos\ncrwork\assignment\calculatorprogram\calculatorprogram\main.cpp(9): warning C4101: 'num': unreferenced local variable
+  calculatorProgram.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\Assignment\calculatorProgram\Debug\calculatorProgram.exe
+  calculatorProgram.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\Assignment\calculatorProgram\Debug\calculatorProgram.pdb (Partial PDB)

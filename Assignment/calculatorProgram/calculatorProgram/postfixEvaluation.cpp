@@ -60,17 +60,15 @@ public:
 		delete s;
 	}
 };
-int main()
+void postfixEvaluation(char *str)
 {
-	char str[100], ch;
+	char  ch;
 	int x1 = 0, x2 = 0, x3 = 0;
 	stack st;
 	cout << "enter the size of the stack" << endl;
 	int n;
 	cin >> n;
 	st.getdata(n);
-	cout << "enter the postfix expression" << endl;
-	cin >> str;
 	for (int i = 0; i < strlen(str); i++)
 	{
 		ch = str[i];
@@ -119,5 +117,4 @@ int main()
 	}
 	cout << "the result of the expression is  " << st.pop();
 	system("pause");
-	return 0;
 }
