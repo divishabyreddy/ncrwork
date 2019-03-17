@@ -1,0 +1,4 @@
+﻿  quick_sort.cpp
+c:\users\cdac\source\repos\ncrwork\ds_assignments\ds_assignment_1\sorting\quick_sort\quick_sort\quick_sort.cpp(36): warning C4101: 'loc': unreferenced local variable
+  quick_sort.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\ds_assignments\ds_assignment_1\sorting\quick_sort\Debug\quick_sort.exe
+  quick_sort.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\ds_assignments\ds_assignment_1\sorting\quick_sort\Debug\quick_sort.pdb (Partial PDB)

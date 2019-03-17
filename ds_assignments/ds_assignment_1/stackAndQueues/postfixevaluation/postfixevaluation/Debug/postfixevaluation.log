@@ -1,0 +1,4 @@
+﻿  postfixeval.cpp
+c:\users\cdac\source\repos\ncrwork\ds_assignments\ds_assignment_1\stackandqueues\postfixevaluation\postfixevaluation\postfixeval.cpp(74): warning C4018: '<': signed/unsigned mismatch
+  postfixevaluation.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\ds_assignments\ds_assignment_1\stackAndQueues\postfixevaluation\Debug\postfixevaluation.exe
+  postfixevaluation.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\ds_assignments\ds_assignment_1\stackAndQueues\postfixevaluation\Debug\postfixevaluation.pdb (Partial PDB)

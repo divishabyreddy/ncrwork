@@ -1,0 +1,4 @@
+﻿  createProcess.cpp
+c:\users\cdac\source\repos\ncrwork\windows-programming\basic_programs\createprocess\createprocess\createprocess.cpp(26): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'HANDLE'
+  createProcess.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\windows-programming\Basic_programs\createProcess\Debug\createProcess.exe
+  createProcess.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\windows-programming\Basic_programs\createProcess\Debug\createProcess.pdb (Full PDB)

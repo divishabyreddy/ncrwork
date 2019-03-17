@@ -1,0 +1,7 @@
+﻿  dll.cpp
+c:\users\cdac\source\repos\ncrwork\ds_assignments\ds_assignment_1\linkedlistprob\selfadjusting_list\selfadjusting_list\dll.cpp(148): warning C4101: 'cur': unreferenced local variable
+c:\users\cdac\source\repos\ncrwork\ds_assignments\ds_assignment_1\linkedlistprob\selfadjusting_list\selfadjusting_list\dll.cpp(148): warning C4101: 'temp': unreferenced local variable
+c:\users\cdac\source\repos\ncrwork\ds_assignments\ds_assignment_1\linkedlistprob\selfadjusting_list\selfadjusting_list\dll.cpp(198): warning C4101: 'i': unreferenced local variable
+c:\users\cdac\source\repos\ncrwork\ds_assignments\ds_assignment_1\linkedlistprob\selfadjusting_list\selfadjusting_list\dll.cpp(198): warning C4101: 'nodes': unreferenced local variable
+  selfAdjusting_list.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\ds_assignments\ds_assignment_1\linkedListProb\selfAdjusting_list\Debug\selfAdjusting_list.exe
+  selfAdjusting_list.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\ds_assignments\ds_assignment_1\linkedListProb\selfAdjusting_list\Debug\selfAdjusting_list.pdb (Partial PDB)

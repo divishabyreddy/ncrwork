@@ -1,0 +1,6 @@
+﻿  oopaassign1prob7.cpp
+c:\users\cdac\source\repos\ncrwork\oops_assignments\oops_assignment_1\oopaassign1prob7\oopaassign1prob7\oopaassign1prob7.cpp(48): error C2561: 'multiplication': function must return a value
+  c:\users\cdac\source\repos\ncrwork\oops_assignments\oops_assignment_1\oopaassign1prob7\oopaassign1prob7\oopaassign1prob7.cpp(42): note: see declaration of 'multiplication'
+c:\users\cdac\source\repos\ncrwork\oops_assignments\oops_assignment_1\oopaassign1prob7\oopaassign1prob7\oopaassign1prob7.cpp(59): error C2228: left of '.a' must have class/struct/union
+c:\users\cdac\source\repos\ncrwork\oops_assignments\oops_assignment_1\oopaassign1prob7\oopaassign1prob7\oopaassign1prob7.cpp(65): error C2440: 'return': cannot convert from 'Matrix (__cdecl *)(void)' to 'Matrix'
+  c:\users\cdac\source\repos\ncrwork\oops_assignments\oops_assignment_1\oopaassign1prob7\oopaassign1prob7\oopaassign1prob7.cpp(65): note: No constructor could take the source type, or constructor overload resolution was ambiguous

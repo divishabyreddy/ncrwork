@@ -1,0 +1,6 @@
+﻿  oopsassign1prob5.cpp
+c:\users\cdac\source\repos\ncrwork\oops_assignments\oops_assignment_1\oopsassign1prob5\oopsassign1prob5\oopsassign1prob5.cpp(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\cdac\source\repos\ncrwork\oops_assignments\oops_assignment_1\oopsassign1prob5\oopsassign1prob5\oopsassign1prob5.cpp(44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\cdac\source\repos\ncrwork\oops_assignments\oops_assignment_1\oopsassign1prob5\oopsassign1prob5\oopsassign1prob5.cpp(48): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  oopsassign1prob5.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\oops_assignments\oops_assignment_1\oopsassign1prob5\Debug\oopsassign1prob5.exe
+  oopsassign1prob5.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\oops_assignments\oops_assignment_1\oopsassign1prob5\Debug\oopsassign1prob5.pdb (Partial PDB)

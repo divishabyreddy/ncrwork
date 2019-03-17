@@ -1,0 +1,5 @@
+﻿  stringExpansion.c
+c:\users\cdac\source\repos\ncrwork\assignment\stringexpansion\stringexpansion\stringexpansion.c(59): warning C4013: 'gets' undefined; assuming extern returning int
+c:\users\cdac\source\repos\ncrwork\assignment\stringexpansion\stringexpansion\stringexpansion.c(56): warning C4101: 'size1': unreferenced local variable
+  stringExpansion.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\Assignment\stringExpansion\Debug\stringExpansion.exe
+  stringExpansion.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\Assignment\stringExpansion\Debug\stringExpansion.pdb (Partial PDB)

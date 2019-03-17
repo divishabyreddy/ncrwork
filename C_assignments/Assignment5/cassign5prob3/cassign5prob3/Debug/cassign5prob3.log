@@ -1,0 +1,5 @@
+﻿  cassign5prob3.c
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob3\cassign5prob3\cassign5prob3.c(41): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob3\cassign5prob3\cassign5prob3.c(42): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\friends\source\repos\shivanikaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob3\cassign5prob3\cassign5prob3.c(43): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  cassign5prob3.vcxproj -> C:\Users\Friends\source\repos\ShivaniKaripe\cdac-ncr-work\cassignments\c_assignment_5\cassign5prob3\Debug\cassign5prob3.exe

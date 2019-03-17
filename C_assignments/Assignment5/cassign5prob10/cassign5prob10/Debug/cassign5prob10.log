@@ -1,0 +1,21 @@
+﻿  cassign5prob10.c
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(25): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(25): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(25): note: the missing variadic argument 2 is required by format string '%s'
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(25): note: this argument is used as a buffer size
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(28): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(28): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(28): note: the missing variadic argument 2 is required by format string '%s'
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(28): note: this argument is used as a buffer size
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(38): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(38): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(38): note: the missing variadic argument 2 is required by format string '%s'
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(38): note: this argument is used as a buffer size
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(40): warning C4473: 'fscanf_s' : not enough arguments passed for format string
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(40): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(40): note: the missing variadic argument 2 is required by format string '%s'
+  c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(40): note: this argument is used as a buffer size
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(8): warning C4101: 'k': unreferenced local variable
+c:\users\cdac\source\repos\divishabyreddy\ncrwork\c assignment\assignment5\cassign5prob10\cassign5prob10\cassign5prob10.c(8): warning C4101: 'j': unreferenced local variable
+  cassign5prob10.vcxproj -> C:\Users\cdac\Source\Repos\divishabyreddy\ncrwork\C Assignment\Assignment5\cassign5prob10\Debug\cassign5prob10.exe
+  cassign5prob10.vcxproj -> C:\Users\cdac\Source\Repos\divishabyreddy\ncrwork\C Assignment\Assignment5\cassign5prob10\Debug\cassign5prob10.pdb (Partial PDB)
