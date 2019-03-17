@@ -1,0 +1,3 @@
+﻿  virtualFunction.cpp
+c:\users\friends\source\repos\divishabyreddy\ncrwork\oops_assignments\oops_assignment_3\vitualfunction\vitualfunction\virtualfunction.cpp(24): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  vitualFunction.vcxproj -> C:\Users\Friends\source\repos\divishabyreddy\ncrwork\oops_assignments\oops_assignment_3\vitualFunction\Debug\vitualFunction.exe

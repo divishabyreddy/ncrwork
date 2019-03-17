@@ -1,0 +1,14 @@
+﻿  stack_temlates.cpp
+c:\users\friends\source\repos\divishabyreddy\ncrwork\oops_assignments\oops_assignment_3\stack_templates\stack_templates\stack_temlates.cpp(119): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\friends\source\repos\divishabyreddy\ncrwork\oops_assignments\oops_assignment_3\stack_templates\stack_templates\stack_temlates.cpp(122): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\friends\source\repos\divishabyreddy\ncrwork\oops_assignments\oops_assignment_3\stack_templates\stack_templates\stack_temlates.cpp(57): warning C4715: 'Stack<int>::pop': not all control paths return a value
+c:\users\friends\source\repos\divishabyreddy\ncrwork\oops_assignments\oops_assignment_3\stack_templates\stack_templates\stack_temlates.cpp(57): warning C4715: 'Stack<float>::pop': not all control paths return a value
+  stack_templates.vcxproj -> C:\Users\Friends\source\repos\divishabyreddy\ncrwork\oops_assignments\oops_assignment_3\stack_templates\Debug\stack_templates.exe
