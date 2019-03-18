@@ -76,8 +76,59 @@ ostream& operator<<(ostream &cout, String s)//function for overloading <<operato
 int main()
 {
 	String stringobj1, stringObj2, resultObj3;//creating the objects
-	
-	cin >> stringobj1;
+	char choice[10]=" ";
+	while (*choice != '4')
+	{
+		cout << "chosse an option from below" << endl;
+		cout << "1.string concatenation" << endl;
+		cout << "2.string copy" << endl;
+		cout << "3.To modify  a position" << endl;
+		cout << "4.Exit" << endl;
+		cout << "enter your choice" << endl;
+		cin >> choice;
+		if (*choice == '1' || *choice == '2' || *choice == '3' || *choice == '4')
+		{
+			switch (*choice)
+			{
+			case '1':
+			{
+				cin >> stringobj1;
+				cin >> stringObj2;
+				resultObj3 = stringobj1 + stringObj2;
+				cout << "the result of s3=s1+s2 is" << endl;
+				break;
+			}
+			case '2':
+			{
+				cout << "enter the string to be copied " << endl;
+				cin >> stringObj2;
+				resultObj3 = stringObj2;
+				cout << "the result of s3=s2 is" << endl;
+				cout << resultObj3 << endl;
+				break;
+			}
+			case '3':
+			{
+				char ch;
+				cout << "enter the character " << endl;
+				std::cin >> ch;
+				stringObj2[3] = ch;
+				cout << "the result after performing s2[3]=ch is" << endl;
+				cout << "the element at position 3 of stringObj2 is" << endl;
+				cout << stringObj2[3];
+				break;
+			}
+			case '4':
+				exit(1);
+				break;
+			default:
+				break;
+			}
+
+		}
+		cin >> choice;
+	}
+	/*cin >> stringobj1;
 	cin >> stringObj2;
 	resultObj3 = stringobj1 + stringObj2;
 	cout << "the result of s3=s1+s2 is" << endl;
@@ -90,7 +141,7 @@ int main()
 	stringObj2[3] = 'p';
 	cout << "the result after performing s2[3]='p' is" << endl;
 	cout << "the element at position 3 of stringObj2 is" << endl;
-	cout << stringObj2[3];
+	cout << stringObj2[3];*/
 	system("pause");
 	return 0;
 }

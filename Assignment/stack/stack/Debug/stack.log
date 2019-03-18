@@ -1,0 +1,45 @@
+﻿  Source.cpp
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(87): error C2059: syntax error: ')'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(103): error C2143: syntax error: missing ';' before 'void'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(87): error C2059: syntax error: '{'
+  c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(103): note: see reference to class template instantiation 'Stack<complex>' being compiled
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(87): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(98): error C2059: syntax error: 'else'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(98): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(105): error C3861: 'isFull': identifier not found
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(108): error C2065: 'top': undeclared identifier
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(109): error C2065: 'stack': undeclared identifier
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(109): error C2065: 'top': undeclared identifier
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(116): error C3861: 'isEmpty': identifier not found
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(117): error C2065: 'stack': undeclared identifier
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(117): error C2065: 'top': undeclared identifier
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(118): error C2065: 'top': undeclared identifier
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(124): error C3861: 'isEmpty': identifier not found
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(125): error C2065: 'stack': undeclared identifier
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(125): error C2065: 'top': undeclared identifier
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(131): error C2059: syntax error: '}'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(131): error C2143: syntax error: missing ';' before '}'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(190): error C2039: 'push': is not a member of 'Stack<int>'
+  c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(160): note: see declaration of 'Stack<int>'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(203): error C2039: 'pop': is not a member of 'Stack<int>'
+  c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(160): note: see declaration of 'Stack<int>'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(216): error C2039: 'peek': is not a member of 'Stack<int>'
+  c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(160): note: see declaration of 'Stack<int>'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(298): error C2039: 'push': is not a member of 'Stack<float>'
+  c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(268): note: see declaration of 'Stack<float>'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(311): error C2039: 'pop': is not a member of 'Stack<float>'
+  c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(268): note: see declaration of 'Stack<float>'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(324): error C2039: 'peek': is not a member of 'Stack<float>'
+  c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(268): note: see declaration of 'Stack<float>'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(408): error C2039: 'push': is not a member of 'Stack<std::string>'
+  c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(373): note: see declaration of 'Stack<std::string>'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(421): error C2039: 'pop': is not a member of 'Stack<std::string>'
+  c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(373): note: see declaration of 'Stack<std::string>'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(434): error C2039: 'peek': is not a member of 'Stack<std::string>'
+  c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(373): note: see declaration of 'Stack<std::string>'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(520): error C2039: 'push': is not a member of 'Stack<Complex>'
+  c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(485): note: see declaration of 'Stack<Complex>'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(533): error C2039: 'pop': is not a member of 'Stack<Complex>'
+  c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(485): note: see declaration of 'Stack<Complex>'
+c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(546): error C2039: 'peek': is not a member of 'Stack<Complex>'
+  c:\users\cdac\source\repos\ncrwork\assignment\stack\stack\source.cpp(485): note: see declaration of 'Stack<Complex>'
