@@ -1,3 +1,1 @@
-﻿  oopsassign1prob3.cpp
-c:\users\friends\source\repos\divishabyreddy\ncrwork\oops_assignments\oops_assignment_1\oopsassign1prob3\oopsassign1prob3\oopsassign1prob3.cpp(91): warning C4101: 'dummy': unreferenced local variable
-  oopsassign1prob3.vcxproj -> C:\Users\Friends\source\repos\divishabyreddy\ncrwork\oops_assignments\oops_assignment_1\oopsassign1prob3\Debug\oopsassign1prob3.exe
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Cpp.Platform.targets(57,5): error MSB8020: The build tools for v141 (Platform Toolset = 'v141') cannot be found. To build using the v141 build tools, please install v141 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution".

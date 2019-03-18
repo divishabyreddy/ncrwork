@@ -23,7 +23,7 @@ public:
 		real = 0;
 		img = 0;
 	}
-	Complex(float temp)//constructor with only one parameters
+	Complex(float temp)//constructor with only one parameter
 	{
 		real = temp;
 		img = temp;
