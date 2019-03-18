@@ -37,15 +37,15 @@ public:
 			}
 		}
 	}
-	friend Matrix multiplication(Matrix m1, Matrix m2);
+	friend void multiplication(Matrix m1, Matrix m2);
 };
-Matrix multiplication(Matrix m1, Matrix m2)
+void multiplication(Matrix m1, Matrix m2)
 {
-	Matrix temp();
+	Matrix temp;
 	if (m1.n != m2.m)
 	{
 		cout << "matrix multiplication not possible" << endl;
-		return;
+		exit(1);
 	}
 	else
 	{
@@ -62,7 +62,7 @@ Matrix multiplication(Matrix m1, Matrix m2)
 		}
 		
 	}
-	return temp;
+	 temp.get_data();
 }
 int main()
 {
@@ -70,7 +70,8 @@ int main()
 	m1.set_data();
 	m2.set_data();
 	
-	m3=multiplication(m1, m2);
-	m3.get_data();
+    multiplication(m1, m2);
+	//m3.get_data();
+	system("pause");
 	return 0;
 }
