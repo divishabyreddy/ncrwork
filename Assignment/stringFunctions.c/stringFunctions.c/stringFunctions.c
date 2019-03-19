@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 #include<string.h>
 void stringreverse(char *);
 void stringcopy(char *, char *);
@@ -7,118 +8,136 @@ void stringcompare(char *, char *);
 int stringlength(char *);
 int main()
 {
-	char  str[50];
-	char  str2[50];
-	int   choice;
-	printf_s("Enter the first string\n");
-	gets(str);
-	printf_s("choose an option\n 1.string reverse\n 2.string copy\n 3.string cancatenation\n 4.string compare\n");
-	scanf_s("%d", &choice);
-	while (choice <= 4 && choice>0)
+	char  stringInput[50];
+	char  string2[50];
+	char  choice[10];
+	while (1)//loop to select a string operation
 	{
-		switch (choice)
+		printf_s("choose an option\n 1.string reverse\n 2.string copy\n 3.string cancatenation\n 4.string compare\n5.exit\n");
+		gets(choice);
+		if (*choice == '1' || *choice == '2' || *choice == '3' || *choice == '4' || *choice == '5')//to check whether the given input is valid or not
 		{
-		case 1:
-			stringreverse(str);
-			break;
-		case 2:
-			stringcopy(str2, str);
-			break;
-		case 3:
-	        printf_s("enter the  string that is to be concatenated to the first string\n");
-	        scanf_s("%s",str2,50);
-			stringconcatenation(str, str2);
-			break;
-		case 4:
-			printf_s("enter the second string that is to be compared to the first string\n");
-			scanf_s("%s", str2, 50);
-			stringcompare(str, str2);
-			break;
+
+			{
+				switch (*choice)
+				{
+				case '1'://case for calling stringreverse function
+				{
+					printf_s("Enter the first string\n");
+					gets(stringInput);
+					stringreverse(stringInput);
+					break;
+				}
+				case '2'://case for calling stringcopy function
+				{
+					printf_s("Enter the first string\n");
+					gets(stringInput);
+					stringcopy(string2, stringInput);
+					break;
+				}
+				case '3'://case for calling stringconcatenation function
+				{
+					printf_s("Enter the first string\n");
+					gets(stringInput);
+					printf_s("enter the  string that is to be concatenated to the first string\n");
+					gets(string2);
+					stringconcatenation(stringInput, string2);
+					break;
+				}
+				case '4'://case for calling stringcompare function
+				{
+					printf_s("Enter the first string\n");
+					gets(stringInput);
+					printf_s("enter the second string that is to be compared to the first string\n");
+					gets(string2);
+					stringcompare(stringInput, string2);
+					break;
+				}
+				case '5'://case for exit
+				{
+					exit(1);
+					break;
+				}
+
+				default:
+					break;
+				}
+			}
 		}
-		printf_s("choose an option\n 1.string reverse\n 2.string copy\n 3.string cancatenation\n 4.string compare\n");
-		scanf_s("%d", &choice);
+		else
+			printf_s("please enter a valid option\n");
 	}
-	if (!(choice <= 4 && choice > 0))
-		printf_s("invalid option");
-	free(str);
-	free(str2);
 	return 0;
 }
 //for calculating the length of the string
-int stringlength(char *str)
+int stringlength(char *stringInput)
 {
-	int i = 0;
-	while (str[i] != '\0')
+	int iterator = 0;
+	while (stringInput[iterator] != '\0')
 	{
-		i++;
+		iterator++;
 	}
-	return i;
+	return iterator;
 }
 //function to reverse the string
-void stringreverse(char *str)
+void stringreverse(char *stringInput)
 {
-	char *str3;
-	int i , j = 0;//for length of the strings
-	i = stringlength(str);
-	str3 = (char*)malloc(i * sizeof(char));
-	for (i = i - 1; i >= 0; i--)
+	int length1 = 0,iterator,value;
+	length1 = stringlength(stringInput);//returns the length of the string
+	value = length1-1;
+	char temp;
+	for (iterator = 0; iterator < ((length1/2)-1); iterator++)//for performing string reverse
 	{
-		str3[j++] = str[i];
+		temp = stringInput[iterator];
+		stringInput[iterator] = stringInput[value];
+		stringInput[value] = temp;
+		value--;
 	}
-	str3[j] = '\0';
-	printf_s("%s\n", str3);
-	free(str3);
+	printf_s("%s\n", stringInput);
 }
 //function to copy one string to another
-void stringcopy(char *str2, char *str)
+void stringcopy(char *destinationString, char *sourceString)
 {
-	int j;
-	for ( j = 0; j <stringlength(str); j++)
+	int jiterator;
+	for ( jiterator = 0; jiterator <stringlength(sourceString); jiterator++)//for copying the string
 	{
-		str2[j] = str[j];
+		destinationString[jiterator] = sourceString[jiterator];
 	}
-	str2[j] = '\0';
+	destinationString[jiterator] = '\0';
 	printf_s("The string after copying is ");
-	printf_s("%s\n", str2);
+	printf_s("%s\n", destinationString);
 }
 //function for string cancatenation
-void stringconcatenation(char *str, char *str2)
+void stringconcatenation(char *destinationString, char *sourceString)
 {
 	char *temp;
-	int i , j ;//for length of the strings
-	i = stringlength(str);
-	j = stringlength(str2);
-	temp = str;
-	str = (char *)malloc(sizeof(char)*(i + j + 1));
-	j =i= 0;
-	while (temp[i] != '\0')//storing the string value from temp
+	int length1, length2 = 0;
+	length1 = stringlength(destinationString);
+	while (sourceString[length2] != '\0')//concatenating the second string
 	{
-		str[i] = temp[i];
-		i++;
+		destinationString[length1] = sourceString[length2];
+		length1++;
+		length2++;
 	}
-	while (str2[j] != '\0')//concatenating the second string
-	{
-		str[i] = str2[j];
-		i++;
-		j++;
-	}
-	str[i] = '\0';
-	printf_s("%s\n", str);
-	free(str);
+	destinationString[length1] = '\0';
+	printf_s("The string after concatenation is ");
+	printf_s("%s\n", destinationString);
+	return;
 }
 //function for string compare
-void stringcompare(char *str, char *str2)
+void stringcompare(char *string1, char *string2)
 {
-	while (*str == *str2)
+	printf_s("the value of string compare is \n");
+	while (*string1 == *string2)//comparing the strings
 	{
-		if (*str == '\0' || *str2 == '\0')
+		if (*string1 == '\0' || *string2 == '\0')
 			break;
 
-		str++;
-		str2++;
+		string1++;
+		string2++;
 	}
-	if (*str == '\0' && *str2 == '\0')
+	if (*string1 == '\0' && *string2 == '\0')//returns 0 if the strings are equal
 		printf_s("%d", 0);
-	else
-		printf_s("%d\n", *str - *str2);
+	else//returns the difference of characters if the strings are unequal
+		printf_s("%d\n", *string1 - *string2);
 }

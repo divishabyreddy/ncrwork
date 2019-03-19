@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (stringFunctions.c.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stringFunctions.c
+c:\users\friends\source\repos\divishabyreddy\ncrwork\assignment\stringfunctions.c\stringfunctions.c\stringfunctions.c(17): warning C4013: 'gets' undefined; assuming extern returning int
+c:\users\friends\source\repos\divishabyreddy\ncrwork\assignment\stringfunctions.c\stringfunctions.c\stringfunctions.c(113): warning C4101: 'temp': unreferenced local variable
+  stringFunctions.vcxproj -> C:\Users\Friends\source\repos\divishabyreddy\ncrwork\Assignment\stringFunctions.c\stringFunctions.c\Debug\stringFunctions.exe

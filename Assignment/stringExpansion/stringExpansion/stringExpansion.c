@@ -2,62 +2,62 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-//size of the strings
+//sizes of the strings
 #define SIZE1 20
 #define SIZE2 100
-//function to expand the string1 and store it in  string2
-void expand(char *s1, char *s2)
+//function to expand the stringInput and store it in  expandedString
+void expand(char *sourceString, char *destinationString)
 {
-	int i,inc;
-	static int j = -1;
-	for (i = 0; s1[i] != '\0'; i++)
+	int iterator,incrementer;
+	static int jiterator = -1;
+	for (iterator = 0; sourceString[iterator] != '\0'; iterator++)
 	{
-		if (s1[i] == '-')
+		if (sourceString[iterator] == '-')//expanding the string when '-' is encountered 
 		{
-			if (('a' <= s1[i - 1] && s1[i - 1] <= 'z') && (!('a' <= s1[i + 1] && s1[i + 1] <= 'z')))//checking whether the input string is valid or not
+			if (('a' <= sourceString[iterator - 1] && sourceString[iterator - 1] <= 'z') && (!('a' <= sourceString[iterator + 1] && sourceString[iterator + 1] <= 'z')))//checking whether the input string is valid or not
 			{
 				printf_s("invalid input\n");
 				exit(1);
 			}
-			if (('A' <= s1[i - 1] && s1[i - 1] <= 'Z') && (!('A' <= s1[i + 1] && s1[i + 1] <= 'Z')))
+			if (('A' <= sourceString[iterator - 1] && sourceString[iterator - 1] <= 'Z') && (!('A' <= sourceString[iterator + 1] && sourceString[iterator + 1] <= 'Z')))//checking whether the input string is valid or not
 			{
 				printf_s("invalid input\n");
 				exit(1);
 			}
-			if (('0' <= s1[i - 1] && s1[i - 1] <= '9') && (!('0' <= s1[i + 1] && s1[i + 1] <= '9')))
+			if (('0' <= sourceString[iterator - 1] && sourceString[iterator - 1] <= '9') && (!('0' <= sourceString[iterator + 1] && sourceString[iterator + 1] <= '9')))//checking whether the input string is valid or not
 			{
 				printf_s("invalid input\n");
 				exit(1);
 			}
-			if (('a' <= s1[i - 1] && s1[i - 1] <= 'z') || ('A' <= s1[i - 1] && s1[i - 1] <= 'Z') || ('0' <= s1[i - 1] && s1[i - 1] <= '9'))//expanding the string if it is valid
+			if (('a' <= sourceString[iterator - 1] && sourceString[iterator - 1] <= 'z') || ('A' <= sourceString[iterator - 1] && sourceString[iterator - 1] <= 'Z') || ('0' <= sourceString[iterator - 1] && sourceString[iterator - 1] <= '9'))//expanding the string if the input is valid
 			{
-				inc = 0;
-				while (s2[j] != s1[i + 1])
+				incrementer = 0;
+				while (destinationString[jiterator] != sourceString[iterator + 1])//expanding the string
 				{
-					s2[++j] = s1[i - 1] + ++inc;
+					destinationString[++jiterator] = sourceString[iterator - 1] + ++incrementer;
+			
 				}
-				i++;
+				iterator++;
 			}
 			else
 			{
-				{printf_s("invalid input\n");
-				exit(1); }
+				printf_s("invalid input\n");
+				exit(1); 
 			}
 		}
 			else
-				s2[++j] = s1[i];
+				destinationString[++jiterator] = sourceString[iterator];
 		}
-		s2[++j] = '\0';
+		destinationString[++jiterator] = '\0';
 		printf_s("the string after the expansion is\n");
-		printf_s("%s\n", s2);
+		printf_s("%s\n", destinationString);
 	}
 	int main()
 	{
-		int size1;
-		char s1[SIZE1], s2[SIZE2];
-		printf_s("enter the string\n");
-		gets(s1);
-		expand(s1, s2);
-		system("pause");
+		char stringInput[SIZE1], expandedString[SIZE2];
+		printf_s("enter the string that is to be expanded\n");
+		gets(stringInput);
+		expand(stringInput, expandedString);//calling the function expand
+		system("pause");//to stop the console from closing
 		return 0;
 	}

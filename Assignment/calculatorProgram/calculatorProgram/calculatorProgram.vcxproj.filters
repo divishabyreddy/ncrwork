@@ -7,7 +7,7 @@
     </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
@@ -15,16 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="balancingParanthesis.cpp">
+    <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="balancingParanthesis.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="infixToPostfic.cpp">
+    <ClCompile Include="validate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="postfixEvaluation.cpp">
+    <ClCompile Include="infixtoPostfix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="postfixEvaluation.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

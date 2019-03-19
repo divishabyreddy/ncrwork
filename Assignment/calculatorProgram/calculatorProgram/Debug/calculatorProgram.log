@@ -1,5 +1,13 @@
-﻿  main.cpp
-c:\users\cdac\source\repos\ncrwork\assignment\calculatorprogram\calculatorprogram\main.cpp(8): warning C4101: 'val': unreferenced local variable
-c:\users\cdac\source\repos\ncrwork\assignment\calculatorprogram\calculatorprogram\main.cpp(9): warning C4101: 'num': unreferenced local variable
-  calculatorProgram.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\Assignment\calculatorProgram\Debug\calculatorProgram.exe
-  calculatorProgram.vcxproj -> C:\Users\cdac\Source\Repos\ncrwork\Assignment\calculatorProgram\Debug\calculatorProgram.pdb (Partial PDB)
+﻿  balancingParanthesis.c
+c:\users\friends\source\repos\divishabyreddy\ncrwork\assignment\calculatorprogram\calculatorprogram\balancingparanthesis.c(19): warning C4305: 'return': truncation from 'int' to 'char'
+c:\users\friends\source\repos\divishabyreddy\ncrwork\assignment\calculatorprogram\calculatorprogram\balancingparanthesis.c(29): warning C4305: 'return': truncation from 'int' to 'char'
+  infixtoPostfix.c
+  main.c
+c:\users\friends\source\repos\divishabyreddy\ncrwork\assignment\calculatorprogram\calculatorprogram\main.c(13): warning C4013: 'gets' undefined; assuming extern returning int
+c:\users\friends\source\repos\divishabyreddy\ncrwork\assignment\calculatorprogram\calculatorprogram\main.c(33): warning C4013: 'system' undefined; assuming extern returning int
+  postfixEvaluation.c
+c:\users\friends\source\repos\divishabyreddy\ncrwork\assignment\calculatorprogram\calculatorprogram\postfixevaluation.c(23): warning C4013: 'isdigit' undefined; assuming extern returning int
+  validate.c
+  Generating Code...
+c:\users\friends\source\repos\divishabyreddy\ncrwork\assignment\calculatorprogram\calculatorprogram\infixtopostfix.c(35): warning C4715: 'precedence': not all control paths return a value
+  calculatorProgram.vcxproj -> C:\Users\Friends\source\repos\divishabyreddy\ncrwork\Assignment\calculatorProgram\Debug\calculatorProgram.exe
