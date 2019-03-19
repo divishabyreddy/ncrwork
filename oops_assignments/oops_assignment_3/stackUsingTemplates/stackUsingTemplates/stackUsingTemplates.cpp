@@ -2,29 +2,29 @@
 #include<string>
 using namespace std;
 #define MAX_SIZE 9
-class Complex
+class Complex//creating the claass complex
 {
 	int real;
 	int img;
 public:
-	Complex()
+	Complex()//default constructor
 	{
 		real = img = 0;
 
 	}
-	Complex(int r, int i)
+	Complex(int a, int b)//double parameter constructor 
 	{
-		real = r;
-		img = i;
+		real = a;
+		img = b;
 	}
-	Complex(const Complex &c)
+	Complex(const Complex &c)//copy constructor
 	{
 		real = c.real;
 		img = c.img;
 	}
-	~Complex()
+	~Complex()//destructor
 	{
-
+		cout << "in destructor" << endl;
 	}
 	friend istream& operator>> (istream &cin, Complex &c);
 	friend ostream& operator<<(ostream& cout, Complex c);
@@ -41,14 +41,14 @@ istream& operator >> (istream &cin, Complex &c)
 }
 ostream& operator<<(ostream& cout, Complex c)
 {
-	cout << c.real << "+  " << c.img << "i";
+	cout << "The complex number is " << c.real << "+  " << c.img << "i";
 	return cout;
 }
-
-template <class Complex>
+template <class complex>
+//creating the class stack
 class Stack {
 private:
-	Complex stackHolder[MAX_SIZE];
+	complex stack[MAX_SIZE];
 	int top;
 	bool overflow;
 	bool underflow;
@@ -84,19 +84,19 @@ public:
 		return false;
 	}
 	void printStack() {
-		if (top != MAX_SIZE) {
+		if (top != MAX_SIZE)) {
 			for (int index = top; index >= 0; index--) {
-				if (index > 0) {
-					cout << stackHolder[index] << ", ";
+				if (index >0) {
+					cout << stack[index] << "   ";
 				}
 				else {
-					cout << stackHolder[index];
+					cout << stack[index];
 				}
 			}
 			cout << endl;
 		}
 		else {
-			cout << "stack empty" << endl;
+			cout << "stack is empty" << endl;
 		}
 
 	}
@@ -106,7 +106,7 @@ public:
 		{
 
 			top++;
-			stackHolder[top] = data;
+			stack[top] = data;
 		}
 
 	}
@@ -114,7 +114,7 @@ public:
 		cout << "in pop" << endl;
 		Complex value;
 		if (!isEmpty()) {
-			value = stackHolder[top];
+			value = stack[top];
 			top--;
 		}
 		return value;
@@ -122,7 +122,7 @@ public:
 	Complex peek() {
 		Complex value;
 		if (!isEmpty()) {
-			value = stackHolder[top];
+			value = stack[top];
 		}
 		return value;
 	}
